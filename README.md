@@ -1,28 +1,25 @@
-# create-svelte
+# Vite ecosystem talk
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This repository was created during and accompanies my talk at ViteConf '23 giving a tour of the Vite ecosystem. You can access it at https://github.com/benmccann/vite-ecosystem-demo.
 
-## Creating a project
+## Resources
 
-If you're seeing this, you've probably already done this step. Congrats!
+To learn more about the Vite ecosystem, please check out the resources below:
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- https://kit.svelte.dev/docs/integrations
+- https://vitejs.dev/plugins/ 
+- https://vitejs.dev/guide/api-plugin.html
+- https://github.com/vitejs/awesome-vite
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've installed dependencies with `pnpm install`, start a development server:
 
 ```bash
-npm run dev
+pnpm run dev
 
 # or start the server and open the app in a new browser tab
-npm run dev -- --open
+pnpm run dev -- --open
 ```
 
 ## Building
@@ -30,9 +27,9 @@ npm run dev -- --open
 To create a production version of your app:
 
 ```bash
-npm run build
+pnpm run build
 ```
 
-You can preview the production build with `npm run preview`.
+You can preview the production build with `pnpm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
